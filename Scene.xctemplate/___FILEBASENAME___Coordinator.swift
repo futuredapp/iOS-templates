@@ -28,7 +28,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Coordinator: DefaultCoordinator {
         self.viewModel = viewModel
         self.navigationController = navigationController
         self.serviceHolder = serviceHolder
-        // init view controller from Storyboard!
+        self.viewController = ___FILEBASENAMEASIDENTIFIER___Storyboard.___FILEBASENAMEASIDENTIFIER___ViewController.instantiate()
     }
 
     func start() {
