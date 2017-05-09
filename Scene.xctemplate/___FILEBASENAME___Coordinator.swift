@@ -6,8 +6,16 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import FuntastyKit
+
+fileprivate struct ___FILEBASENAMEASIDENTIFIER___Storyboard: StoryboardType {
+    static let name: String = "___FILEBASENAMEASIDENTIFIER___"
+    static let ___FILEBASENAMEASIDENTIFIER___NavigationController = StoryboardReference<___FILEBASENAMEASIDENTIFIER___Storyboard,
+    UINavigationController>(id: "___FILEBASENAMEASIDENTIFIER___NavigationControllerID")
+    static let ___FILEBASENAMEASIDENTIFIER___ViewController = StoryboardReference<___FILEBASENAMEASIDENTIFIER___Storyboard,
+    ___FILEBASENAMEASIDENTIFIER___ViewController>(id: "___FILEBASENAMEASIDENTIFIER___ViewControllerID")
+}
 
 final class ___FILEBASENAMEASIDENTIFIER___Coordinator: DefaultCoordinator {
     var navigationController: UINavigationController?
