@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="wNu-vz-AgM">
             <objects>
-                <viewController storyboardIdentifier="___FILEBASENAME___ViewControllerID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mrg-aK-cPW" customClass="___FILEBASENAME___ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="___FILEBASENAME___ViewControllerID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mrg-aK-cPW" customClass="___FILEBASENAME___ViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lNf-Tp-JWb"/>
                         <viewControllerLayoutGuide type="bottom" id="PXa-7e-hdt"/>
