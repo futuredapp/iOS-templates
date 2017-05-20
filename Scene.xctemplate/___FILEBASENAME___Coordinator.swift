@@ -6,8 +6,16 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import FuntastyKit
+
+fileprivate struct ___FILEBASENAMEASIDENTIFIER___Storyboard: StoryboardType {
+    static let name = "___FILEBASENAMEASIDENTIFIER___"
+    static let ___FILEBASENAMEASIDENTIFIER___NavigationController = StoryboardReference<___FILEBASENAMEASIDENTIFIER___Storyboard,
+    UINavigationController>(id: "___FILEBASENAMEASIDENTIFIER___NavigationControllerID")
+    static let ___FILEBASENAMEASIDENTIFIER___ViewController = StoryboardReference<___FILEBASENAMEASIDENTIFIER___Storyboard,
+    ___FILEBASENAMEASIDENTIFIER___ViewController>(id: "___FILEBASENAMEASIDENTIFIER___ViewControllerID")
+}
 
 final class ___FILEBASENAMEASIDENTIFIER___Coordinator: DefaultCoordinator {
     var navigationController: UINavigationController?
@@ -20,7 +28,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Coordinator: DefaultCoordinator {
         self.viewModel = viewModel
         self.navigationController = navigationController
         self.serviceHolder = serviceHolder
-        // init view controller from Storyboard!
+        self.viewController = ___FILEBASENAMEASIDENTIFIER___Storyboard.___FILEBASENAMEASIDENTIFIER___ViewController.instantiate()
     }
 
     func start() {
