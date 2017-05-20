@@ -10,7 +10,7 @@ import UIKit
 import FuntastyKit
 
 fileprivate struct ___FILEBASENAMEASIDENTIFIER___Storyboard: StoryboardType {
-    static let name: String = "___FILEBASENAMEASIDENTIFIER___"
+    static let name = "___FILEBASENAMEASIDENTIFIER___"
     static let ___FILEBASENAMEASIDENTIFIER___NavigationController = StoryboardReference<___FILEBASENAMEASIDENTIFIER___Storyboard,
     UINavigationController>(id: "___FILEBASENAMEASIDENTIFIER___NavigationControllerID")
     static let ___FILEBASENAMEASIDENTIFIER___ViewController = StoryboardReference<___FILEBASENAMEASIDENTIFIER___Storyboard,
