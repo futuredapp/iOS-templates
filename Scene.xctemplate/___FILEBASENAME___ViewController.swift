@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import FuntastyKit
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, Coordinated {
     var viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel!
     var coordinator: ___FILEBASENAMEASIDENTIFIER___Coordinator!
 
