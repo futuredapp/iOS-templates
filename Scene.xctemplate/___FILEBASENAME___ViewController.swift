@@ -9,9 +9,9 @@
 import UIKit
 import FuntastyKit
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, Coordinated {
-    var viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel!
-    var coordinator: ___FILEBASENAMEASIDENTIFIER___Coordinator!
+final class ___VARIABLE_sceneIdentifier___ViewController: UIViewController, Coordinated {
+    var viewModel: ___VARIABLE_sceneIdentifier___ViewModel!
+    var coordinator: ___VARIABLE_sceneIdentifier___Coordinator!
 
     override func viewDidLoad() {
         super.viewDidLoad()

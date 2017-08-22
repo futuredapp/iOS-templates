@@ -9,26 +9,26 @@
 import UIKit
 import FuntastyKit
 
-fileprivate struct ___FILEBASENAMEASIDENTIFIER___Storyboard: StoryboardType {
-    static let name = "___FILEBASENAMEASIDENTIFIER___"
-    static let ___FILEBASENAMEASIDENTIFIER___NavigationController = StoryboardReference<___FILEBASENAMEASIDENTIFIER___Storyboard,
-    UINavigationController>(id: "___FILEBASENAMEASIDENTIFIER___NavigationControllerID")
-    static let ___FILEBASENAMEASIDENTIFIER___ViewController = StoryboardReference<___FILEBASENAMEASIDENTIFIER___Storyboard,
-    ___FILEBASENAMEASIDENTIFIER___ViewController>(id: "___FILEBASENAMEASIDENTIFIER___ViewControllerID")
+fileprivate struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
+    static let name = "___VARIABLE_sceneIdentifier___"
+    static let ___VARIABLE_sceneIdentifier___NavigationController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard,
+    UINavigationController>(id: "___VARIABLE_sceneIdentifier___NavigationControllerID")
+    static let ___VARIABLE_sceneIdentifier___ViewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard,
+    ___VARIABLE_sceneIdentifier___ViewController>(id: "___VARIABLE_sceneIdentifier___ViewControllerID")
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Coordinator: DefaultCoordinator {
+final class ___VARIABLE_sceneIdentifier___Coordinator: DefaultCoordinator {
     var navigationController: UINavigationController?
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController?
-    var viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel
+    weak var viewController: ___VARIABLE_sceneIdentifier___ViewController?
+    var viewModel: ___VARIABLE_sceneIdentifier___ViewModel
 
     var serviceHolder: ServiceHolder
 
-    init(navigationController: UINavigationController, viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel, serviceHolder: ServiceHolder) {
+    init(navigationController: UINavigationController, viewModel: ___VARIABLE_sceneIdentifier___ViewModel, serviceHolder: ServiceHolder) {
         self.viewModel = viewModel
         self.navigationController = navigationController
         self.serviceHolder = serviceHolder
-        self.viewController = ___FILEBASENAMEASIDENTIFIER___Storyboard.___FILEBASENAMEASIDENTIFIER___ViewController.instantiate()
+        self.viewController = ___VARIABLE_sceneIdentifier___Storyboard.___VARIABLE_sceneIdentifier___ViewController.instantiate()
     }
 
     func start() {

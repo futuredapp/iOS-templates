@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MVVM+C Scene</string>
 	<key>Description</key>
-	<string>This generates a new scene using The Funtasty MVVM+C. It consists of the view controller, view model, coordinator and storyboard.</string>
+	<string>This generates a new scene using The Funtasty MVVM-C architecture. It consists of the view controller, view model, coordinator and storyboard.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -28,13 +28,13 @@
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___</string>
 			<key>Identifier</key>
-			<string>productName</string>
+			<string>sceneIdentifier</string>
 			<key>Type</key>
 			<string>static</string>
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___ViewController</string>
+			<string>___VARIABLE_sceneIdentifier___ViewController</string>
 			<key>Description</key>
 			<string>The view controller name</string>
 			<key>Identifier</key>
@@ -48,7 +48,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___ViewModel</string>
+			<string>___VARIABLE_sceneIdentifier___ViewModel</string>
 			<key>Description</key>
 			<string>The view model name</string>
 			<key>Identifier</key>
@@ -62,7 +62,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Coordinator</string>
+			<string>___VARIABLE_sceneIdentifier___Coordinator</string>
 			<key>Description</key>
 			<string>The coordinator name</string>
 			<key>Identifier</key>
@@ -76,7 +76,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Storyboard</string>
+			<string>___VARIABLE_sceneIdentifier___Storyboard</string>
 			<key>Description</key>
 			<string>The storyboard name</string>
 			<key>Identifier</key>
@@ -96,6 +96,6 @@
 	<key>SortOrder</key>
 	<string>9</string>
 	<key>Summary</key>
-	<string>This generates a new scene using The Funtasty MVVM+C.</string>
+	<string>This generates a new scene using The Funtasty MVVM-C architecture.</string>
 </dict>
 </plist>
