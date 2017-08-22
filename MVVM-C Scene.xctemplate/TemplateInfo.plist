@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MVVM+C Scene</string>
+	<string>Scene</string>
 	<key>Description</key>
 	<string>This generates a new scene using The Funtasty MVVM-C architecture. It consists of the view controller, view model, coordinator and storyboard.</string>
 	<key>Kind</key>
