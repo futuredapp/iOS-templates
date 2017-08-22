@@ -8,6 +8,6 @@
 
 import Foundation
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewModel {
+final class ___VARIABLE_sceneIdentifier___ViewModel {
 
 }

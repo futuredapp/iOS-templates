@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="wNu-vz-AgM">
             <objects>
-                <viewController storyboardIdentifier="___FILEBASENAME___ViewControllerID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mrg-aK-cPW" customClass="___FILEBASENAME___ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="___VARIABLE_sceneIdentifier___ViewControllerID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mrg-aK-cPW" customClass="___VARIABLE_sceneIdentifier___ViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lNf-Tp-JWb"/>
                         <viewControllerLayoutGuide type="bottom" id="PXa-7e-hdt"/>
@@ -30,7 +30,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Lx0-LG-Xao">
             <objects>
-                <navigationController storyboardIdentifier="___FILEBASENAME___NavigationControllerID" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hvM-iD-sv8" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="___VARIABLE_sceneIdentifier___NavigationControllerID" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hvM-iD-sv8" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8v9-Nz-rwX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
