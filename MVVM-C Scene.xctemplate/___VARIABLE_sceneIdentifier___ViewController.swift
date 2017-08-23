@@ -7,13 +7,17 @@
 //
 
 import UIKit
-import FuntastyKit
 
-final class ___VARIABLE_sceneIdentifier___ViewController: UIViewController, Coordinated {
+protocol ___VARIABLE_sceneIdentifier___ViewControllerInput: class {
+}
+
+final class ___VARIABLE_sceneIdentifier___ViewController: UIViewController {
     var viewModel: ___VARIABLE_sceneIdentifier___ViewModel!
-    var coordinator: ___VARIABLE_sceneIdentifier___Coordinator!
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+}
+
+extension ___VARIABLE_sceneIdentifier___ViewController: ___VARIABLE_sceneIdentifier___ViewControllerInput {
 }
