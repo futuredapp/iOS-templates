@@ -6,10 +6,9 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import UIKit
 import FuntastyKit
 
-fileprivate struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
+private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     static let name = "___VARIABLE_sceneIdentifier___"
     static let ___VARIABLE_sceneIdentifier___NavigationController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard,
     UINavigationController>(id: "___VARIABLE_sceneIdentifier___NavigationControllerID")
@@ -17,15 +16,16 @@ fileprivate struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     ___VARIABLE_sceneIdentifier___ViewController>(id: "___VARIABLE_sceneIdentifier___ViewControllerID")
 }
 
+protocol ___VARIABLE_sceneIdentifier___CoordinatorInput: Coordinator {
+}
+
 final class ___VARIABLE_sceneIdentifier___Coordinator: DefaultCoordinator {
-    var navigationController: UINavigationController?
+    private let navigationController: UINavigationController
     weak var viewController: ___VARIABLE_sceneIdentifier___ViewController?
-    var viewModel: ___VARIABLE_sceneIdentifier___ViewModel
 
-    var serviceHolder: ServiceHolder
+    private let serviceHolder: ServiceHolder
 
-    init(navigationController: UINavigationController, viewModel: ___VARIABLE_sceneIdentifier___ViewModel, serviceHolder: ServiceHolder) {
-        self.viewModel = viewModel
+    init(navigationController: UINavigationController, serviceHolder: ServiceHolder) {
         self.navigationController = navigationController
         self.serviceHolder = serviceHolder
         self.viewController = ___VARIABLE_sceneIdentifier___Storyboard.___VARIABLE_sceneIdentifier___ViewController.instantiate()
@@ -35,12 +35,14 @@ final class ___VARIABLE_sceneIdentifier___Coordinator: DefaultCoordinator {
         guard let viewController = viewController else {
             return
         }
-        viewController.viewModel = viewModel
-        viewController.coordinator = self
-        navigationController?.pushViewController(viewController, animated: true)
+        viewController.viewModel = ___VARIABLE_sceneIdentifier___ViewModel(coordinator: self, viewController: viewController)
+        navigationController.pushViewController(viewController, animated: true)
     }
 
     func stop() {
-        _ = navigationController?.popViewController(animated: true)
+        _ = navigationController.popViewController(animated: true)
     }
+}
+
+extension ___VARIABLE_sceneIdentifier___Coordinator: ___VARIABLE_sceneIdentifier___CoordinatorInput {
 }
