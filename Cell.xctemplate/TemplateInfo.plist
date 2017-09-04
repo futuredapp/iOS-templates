@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MVVM+C Cell</string>
+	<string>Cell</string>
 	
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>

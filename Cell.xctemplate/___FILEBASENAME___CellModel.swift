@@ -6,13 +6,10 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import UIKit
+import FuntastyKit
 
-class ___FILEBASENAMEASIDENTIFIER___CellModel {
+struct ___FILEBASENAMEASIDENTIFIER___CellModel {
 
-    init() {
-
-    }
 }
 
 extension ___FILEBASENAMEASIDENTIFIER___CellModel: CellModel {
@@ -21,6 +18,6 @@ extension ___FILEBASENAMEASIDENTIFIER___CellModel: CellModel {
     }
 
     var cellHeight: CGFloat {
-        return 100.0 // FIXME
+        return 100.0 // FIXME: Use real height of cell.
     }
 }

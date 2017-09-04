@@ -6,18 +6,15 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import UIKit
+import FuntastyKit
 
-class ___FILEBASENAMEASIDENTIFIER___Cell: UITableViewCell {
-
+final class ___FILEBASENAMEASIDENTIFIER___Cell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
-
     }
 
     override func prepareForReuse() {
         super.prepareForReuse()
-
     }
 }
 
