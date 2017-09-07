@@ -10,10 +10,8 @@ import FuntastyKit
 
 private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     static let name = "___VARIABLE_sceneIdentifier___"
-    static let ___VARIABLE_sceneIdentifier___NavigationController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard,
-    UINavigationController>(id: "___VARIABLE_sceneIdentifier___NavigationControllerID")
-    static let ___VARIABLE_sceneIdentifier___ViewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard,
-    ___VARIABLE_sceneIdentifier___ViewController>(id: "___VARIABLE_sceneIdentifier___ViewControllerID")
+    static let ___VARIABLE_sceneIdentifier___NavigationController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, UINavigationController>(id: "___VARIABLE_sceneIdentifier___NavigationControllerID")
+    static let ___VARIABLE_sceneIdentifier___ViewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, ___VARIABLE_sceneIdentifier___ViewController>(id: "___VARIABLE_sceneIdentifier___ViewControllerID")
 }
 
 protocol ___VARIABLE_sceneIdentifier___CoordinatorInput: Coordinator {
