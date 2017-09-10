@@ -8,16 +8,16 @@
 
 import FuntastyKit
 
-struct ___FILEBASENAMEASIDENTIFIER___CellModel {
+struct ___VARIABLE_sourceCellIdentifier___CellModel {
 
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___CellModel: CellModel {
+extension ___VARIABLE_sourceCellIdentifier___CellModel: CellModel {
     func cellType() -> UIView.Type {
-        return ___FILEBASENAMEASIDENTIFIER___Cell.self
+        return ___VARIABLE_sourceCellIdentifier___Cell.self
     }
 
     var cellHeight: CGFloat {
-        return 100.0 // FIXME: Use real height of cell.
+        return UITableViewAutomaticDimension
     }
 }

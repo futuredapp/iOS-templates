@@ -8,7 +8,7 @@
 
 import FuntastyKit
 
-final class ___FILEBASENAMEASIDENTIFIER___Cell: UITableViewCell {
+final class ___VARIABLE_sourceCellIdentifier___Cell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -18,8 +18,8 @@ final class ___FILEBASENAMEASIDENTIFIER___Cell: UITableViewCell {
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Cell: CellConfigurable {
-    func configure(with model: ___FILEBASENAMEASIDENTIFIER___CellModel) {
+extension ___VARIABLE_sourceCellIdentifier___Cell: CellConfigurable {
+    func configure(with model: ___VARIABLE_sourceCellIdentifier___CellModel) {
 
     }
 }
