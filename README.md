@@ -1,14 +1,9 @@
-# mvmm-c-template
+# MVVM-C Template
 
-Template for MVVM+C architecture. 
-This generates a new scene using The Funtasty MVVM+C
+The main template generates a new scene using MVVM-C architecture used at The Funtasty.
 
-Make directory for custom templates
-```
-$ mkdir -p ~/Library/Developer/Xcode/Templates/Custom
-```
+Installation could be done either manually or by running installation script:
 
-Copy template into directory
 ```
-$ cp path/to/your/template.xctemplate ~/Library/Developer/Xcode/Templates/Custom/
+./install.sh
 ```
