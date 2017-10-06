@@ -2,7 +2,8 @@
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
-//  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
 import FuntastyKit
