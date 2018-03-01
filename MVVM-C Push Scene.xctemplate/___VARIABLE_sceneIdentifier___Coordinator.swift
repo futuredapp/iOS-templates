@@ -10,7 +10,6 @@ import FuntastyKit
 
 private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     static let name = "___VARIABLE_sceneIdentifier___"
-    static let navigationController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, UINavigationController>(id: "___VARIABLE_sceneIdentifier___NavigationControllerID")
     static let viewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, ___VARIABLE_sceneIdentifier___ViewController>(id: "___VARIABLE_sceneIdentifier___ViewControllerID")
 }
 
