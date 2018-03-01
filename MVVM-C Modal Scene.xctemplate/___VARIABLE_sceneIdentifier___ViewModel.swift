@@ -9,7 +9,7 @@
 import Foundation
 import FuntastyKit
 
-protocol ___VARIABLE_sceneIdentifier___CoordinatorInput: class, Coordinator {
+protocol ___VARIABLE_sceneIdentifier___CoordinatorInput: Coordinator {
 }
 
 protocol ___VARIABLE_sceneIdentifier___ViewControllerInput: class {
