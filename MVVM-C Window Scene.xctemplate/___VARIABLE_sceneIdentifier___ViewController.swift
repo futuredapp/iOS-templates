@@ -8,9 +8,6 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneIdentifier___ViewControllerInput: class {
-}
-
 final class ___VARIABLE_sceneIdentifier___ViewController: UIViewController {
     var viewModel: ___VARIABLE_sceneIdentifier___ViewModel!
 

@@ -14,9 +14,6 @@ private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     static let viewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, ___VARIABLE_sceneIdentifier___ViewController>(id: "___VARIABLE_sceneIdentifier___ViewControllerID")
 }
 
-protocol ___VARIABLE_sceneIdentifier___CoordinatorInput: Coordinator {
-}
-
 final class ___VARIABLE_sceneIdentifier___Coordinator: DefaultCoordinator {
     private let navigationController: UINavigationController
     weak var viewController: ___VARIABLE_sceneIdentifier___ViewController?

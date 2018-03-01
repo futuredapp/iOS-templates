@@ -7,6 +7,13 @@
 //
 
 import Foundation
+import FuntastyKit
+
+protocol ___VARIABLE_sceneIdentifier___CoordinatorInput: class, Coordinator {
+}
+
+protocol ___VARIABLE_sceneIdentifier___ViewControllerInput: class {
+}
 
 final class ___VARIABLE_sceneIdentifier___ViewModel {
     private let coordinator: ___VARIABLE_sceneIdentifier___CoordinatorInput
