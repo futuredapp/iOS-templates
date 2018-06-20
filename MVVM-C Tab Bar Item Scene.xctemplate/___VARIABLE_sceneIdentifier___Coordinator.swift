@@ -18,7 +18,7 @@ protocol ___VARIABLE_sceneIdentifier___CoordinatorInput: Coordinator {
 }
 
 final class ___VARIABLE_sceneIdentifier___Coordinator: TabBarItemCoordinator {
-    let tabBarController: UITabBarController
+    weak var tabBarController: UITabBarController?
     weak var destinationNavigationController: UINavigationController?
     weak var viewController: ___VARIABLE_sceneIdentifier___ViewController?
 
