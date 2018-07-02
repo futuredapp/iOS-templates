@@ -14,9 +14,6 @@ private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     static let viewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, ___VARIABLE_sceneIdentifier___ViewController>(id: "___VARIABLE_sceneIdentifier___ViewControllerID")
 }
 
-protocol ___VARIABLE_sceneIdentifier___CoordinatorInput: Coordinator {
-}
-
 final class ___VARIABLE_sceneIdentifier___Coordinator: TabBarItemCoordinator {
     weak var tabBarController: UITabBarController?
     weak var destinationNavigationController: UINavigationController?
