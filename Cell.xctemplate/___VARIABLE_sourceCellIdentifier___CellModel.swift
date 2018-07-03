@@ -13,9 +13,7 @@ struct ___VARIABLE_sourceCellIdentifier___CellModel {
 }
 
 extension ___VARIABLE_sourceCellIdentifier___CellModel: CellModel {
-    func cellType() -> UIView.Type {
-        return ___VARIABLE_sourceCellIdentifier___Cell.self
-    }
+    typealias Cell = ___VARIABLE_sourceCellIdentifier___Cell
 
     var cellHeight: CGFloat {
         return UITableViewAutomaticDimension
