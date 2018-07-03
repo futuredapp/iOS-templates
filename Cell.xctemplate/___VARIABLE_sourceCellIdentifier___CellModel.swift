@@ -12,7 +12,7 @@ struct ___VARIABLE_sourceCellIdentifier___CellModel {
 
 }
 
-extension ___VARIABLE_sourceCellIdentifier___CellModel: CellModel {
+extension ___VARIABLE_sourceCellIdentifier___CellModel: CellConvertible {
     typealias Cell = ___VARIABLE_sourceCellIdentifier___Cell
 
     var cellHeight: CGFloat {
