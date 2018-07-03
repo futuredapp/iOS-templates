@@ -6,7 +6,7 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import FuntastyKit
+import CellKit
 
 struct ___VARIABLE_sourceCellIdentifier___CellModel {
 
