@@ -6,16 +6,14 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import FuntastyKit
+import CellKit
 
 struct ___VARIABLE_sourceCellIdentifier___CellModel {
 
 }
 
-extension ___VARIABLE_sourceCellIdentifier___CellModel: CellModel {
-    func cellType() -> UIView.Type {
-        return ___VARIABLE_sourceCellIdentifier___Cell.self
-    }
+extension ___VARIABLE_sourceCellIdentifier___CellModel: CellConvertible {
+    typealias Cell = ___VARIABLE_sourceCellIdentifier___Cell
 
     var cellHeight: CGFloat {
         return UITableViewAutomaticDimension
