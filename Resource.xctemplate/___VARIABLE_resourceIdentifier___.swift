@@ -20,8 +20,7 @@ final class Production___VARIABLE_resourceIdentifier___: Resource {
     // MARK: - Responses
 
     struct SyncResponse: Equatable, Codable, GraphQLQueriable {
-        // TODO: - Add properties you want to load from API (located in StateModels.swift)
-        // these properties must reflect LoadData struct, but their names has to be capitalized.
+        // TODO: - Add properties you want to sync with API (located in StateModels.swift)
     }
 
     // MARK: - Actions: read
