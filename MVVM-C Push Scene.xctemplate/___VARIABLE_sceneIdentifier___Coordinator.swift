@@ -8,22 +8,24 @@
 
 import FuntastyKit
 
-private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
-    static let name = "___VARIABLE_sceneIdentifier___"
-    static let viewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, ___VARIABLE_sceneIdentifier___ViewController>(id: "___VARIABLE_sceneIdentifier___ViewControllerID")
-}
-
 final class ___VARIABLE_sceneIdentifier___Coordinator: PushCoordinator {
+
+    // MARK: - Properties
+
     let navigationController: UINavigationController
-    weak var viewController: ___VARIABLE_sceneIdentifier___ViewController?
+    var viewController: ___VARIABLE_sceneIdentifier___ViewController?
 
     private let serviceHolder: ServiceHolder
 
+    // MARK: - Initialization
+
     init(navigationController: UINavigationController, serviceHolder: ServiceHolder) {
         self.navigationController = navigationController
+        self.viewController = ___VARIABLE_sceneIdentifier___ViewController()
         self.serviceHolder = serviceHolder
-        self.viewController = ___VARIABLE_sceneIdentifier___Storyboard.viewController.instantiate()
     }
+
+    // MARK: - Utilities
 
     func configure(viewController: ___VARIABLE_sceneIdentifier___ViewController) {
         viewController.viewModel = ___VARIABLE_sceneIdentifier___ViewModel(coordinator: self, viewController: viewController)

@@ -74,20 +74,6 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_sceneIdentifier___Storyboard</string>
-			<key>Description</key>
-			<string>The storyboard name</string>
-			<key>Identifier</key>
-			<string>storyboardName</string>
-			<key>Name</key>
-			<string>Storyboard Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
