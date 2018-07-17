@@ -7,7 +7,7 @@
 
 import RxSwift
 
-final class ___VARIABLE_resourceIdentifier___: Resource {
+public class ___VARIABLE_resourceIdentifier___: Resource {
 
     public struct LoadData: Equatable {
         // code..
