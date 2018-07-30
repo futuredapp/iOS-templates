@@ -22,19 +22,9 @@ final class ___VARIABLE_sceneIdentifier___CellFactory {
     struct Input {
     }
 
-    enum ActionType {
-    }
-
     // MARK: - Properties
 
     weak var delegate: ___VARIABLE_sceneIdentifier___CellFactoryDelegate?
-
-    // MARK: - Initialization
-
-    init(coordinator: ___VARIABLE_sceneIdentifier___CoordinatorInput, viewController: ___VARIABLE_sceneIdentifier___ViewControllerInput) {
-        self.coordinator = coordinator
-        self.viewController = viewController
-    }
 
     // MARK: - Actions
 
