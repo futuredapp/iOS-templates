@@ -1,11 +1,13 @@
-# MVVM-C Template
+# MVVM-C Templates
 
-The main template generates a new scene using MVVM-C architecture used at The Funtasty.
-For more specific navigation cases there are a modal and push scene templates.
-Also a basic table view cell template with model and XIB is available.
+The main template generates a new scene using MVVM-C architecture used at [The Funtasty](https://thefuntasty.com). For more specific navigation cases there are window, modal, push and tab bar scene templates. Also a basic table view cell template with model and XIB is available.
 
-Installation could be done either manually or by running installation script:
+## Installation
+
+The templates can be added to Xcode simply by cloning the repo and running `make` in it.
+
+Also, they could be installed by running some template management tool like [xcman](https://github.com/josefdolezal/xcman):
 
 ```
-./install.sh
+xcman templates install --name MVVM-C\ Templates thefuntasty/MVVM-C-Templates
 ```
