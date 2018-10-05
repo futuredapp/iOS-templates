@@ -16,6 +16,6 @@ extension ___VARIABLE_sourceCellIdentifier___CellModel: CellModel, ReusableCellC
     typealias Cell = ___VARIABLE_sourceCellIdentifier___Cell
 
     var cellHeight: CGFloat {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
 }
