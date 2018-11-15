@@ -15,7 +15,7 @@ struct ___VARIABLE_sourceCellIdentifier___CellModel {
 extension ___VARIABLE_sourceCellIdentifier___CellModel: CellModel, ReusableCellConvertible {
     typealias Cell = ___VARIABLE_sourceCellIdentifier___Cell
 
-    var cellHeight: CGFloat {
-        return UITableView.automaticDimension
+    var cellHeight: Double {
+        return .automaticDimension
     }
 }
