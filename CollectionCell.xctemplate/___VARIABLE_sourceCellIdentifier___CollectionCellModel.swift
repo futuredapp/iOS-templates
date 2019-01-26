@@ -12,6 +12,6 @@ struct ___VARIABLE_sourceCellIdentifier___CollectionCellModel {
 
 }
 
-extension ___VARIABLE_sourceCellIdentifier___CollectionCellModel: ReusableCellConvertible {
+extension ___VARIABLE_sourceCellIdentifier___CollectionCellModel: CellModel, ReusableCellConvertible {
     typealias Cell = ___VARIABLE_sourceCellIdentifier___CollectionCell
 }

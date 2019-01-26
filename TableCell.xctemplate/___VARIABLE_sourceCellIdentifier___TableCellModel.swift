@@ -12,10 +12,10 @@ struct ___VARIABLE_sourceCellIdentifier___TableCellModel {
 
 }
 
-extension ___VARIABLE_sourceCellIdentifier___TableCellModel: ReusableCellConvertible {
+extension ___VARIABLE_sourceCellIdentifier___TableCellModel: CellModel, ReusableCellConvertible {
     typealias Cell = ___VARIABLE_sourceCellIdentifier___TableCell
 
-    var cellHeight: CGFloat {
-        return UITableViewAutomaticDimension
+    var cellHeight: Double {
+        return .automaticDimension
     }
 }
