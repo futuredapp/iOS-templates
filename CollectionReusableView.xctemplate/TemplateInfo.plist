@@ -3,111 +3,68 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>Cell</string>
-	
+	<string>Collection Reusable View</string>
 	<key>Summary</key>
-	<string>This generates a new scene using The Funtasty MVVM-C architecture.</string>
-
+	<string>This generates a new collection reusable view.</string>
 	<key>Description</key>
 	<string>This generates a new cell.</string>
-
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
-
 	<key>SortOrder</key>
 	<string>9</string>
-
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the cell to create</string>
-			
+			<string>The name of the view to create</string>
 			<key>Identifier</key>
-			<string>sourceCellName</string>
-			
+			<string>sourceViewName</string>
 			<key>Name</key>
-			<string>New cell name:</string>
-			
+			<string>New view name:</string>
 			<key>NotPersisted</key>
 			<true/>
-			
 			<key>Required</key>
 			<true/>
-			
 			<key>Type</key>
 			<string>text</string>
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceCellName:identifier___</string>
-			
+			<string>___VARIABLE_sourceViewName:identifier___</string>
 			<key>Identifier</key>
-			<string>sourceCellIdentifier</string>
-
+			<string>sourceViewIdentifier</string>
 			<key>Type</key>
 			<string>static</string>
 		</dict>
-
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceCellIdentifier___Cell</string>
-			
+			<string>___VARIABLE_sourceViewIdentifier___CollectionReusableView</string>
 			<key>Description</key>
 			<string>The XIB name</string>
-			
 			<key>Identifier</key>
 			<string>xibName</string>
-			
 			<key>Name</key>
 			<string>XIB name:</string>
-			
 			<key>Required</key>
 			<true/>
-			
 			<key>Type</key>
 			<string>static</string>
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceCellIdentifier___Cell</string>
-			
+			<string>___VARIABLE_sourceViewIdentifier___CollectionReusableView</string>
 			<key>Description</key>
-			<string>The Cell name</string>
-			
+			<string>The view name</string>
 			<key>Identifier</key>
-			<string>cellName</string>
-			
+			<string>viewName</string>
 			<key>Name</key>
-			<string>Cell name:</string>
-			
+			<string>View name:</string>
 			<key>Required</key>
 			<true/>
-			
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_sourceCellIdentifier___CellModel</string>
-			
-			<key>Description</key>
-			<string>The cell model name</string>
-			
-			<key>Identifier</key>
-			<string>cellModelName</string>
-			
-			<key>Name</key>
-			<string>CellModel name:</string>
-			
-			<key>Required</key>
-			<true/>
-			
 			<key>Type</key>
 			<string>static</string>
 		</dict>
