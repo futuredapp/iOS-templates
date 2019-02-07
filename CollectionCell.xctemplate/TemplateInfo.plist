@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>Collection Cell</string>
+	<string>CellKit Collection View Cell</string>
 	<key>Summary</key>
 	<string>This generates a new collection view cell under CellKit.</string>
 	<key>Description</key>
@@ -42,7 +42,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceCellIdentifier___CollectionCell</string>
+			<string>___VARIABLE_sourceCellIdentifier___CollectionViewCell</string>
 			<key>Description</key>
 			<string>The XIB name</string>
 			<key>Identifier</key>
@@ -56,7 +56,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceCellIdentifier___CollectionCell</string>
+			<string>___VARIABLE_sourceCellIdentifier___CollectionViewCell</string>
 			<key>Description</key>
 			<string>The Cell name</string>
 			<key>Identifier</key>
@@ -70,7 +70,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceCellIdentifier___CollectionCellModel</string>
+			<string>___VARIABLE_sourceCellIdentifier___CollectionViewCellModel</string>
 			<key>Description</key>
 			<string>The cell model name</string>
 			<key>Identifier</key>
