@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionReusableView contentMode="scaleToFill" reuseIdentifier="___VARIABLE_sourceViewIdentifier___CollectionReusableView" id="O6k-YC-oJr" customClass="___VARIABLE_sourceViewIdentifier___CollectionReusableView" customModuleProvider="target">
+        <collectionReusableView contentMode="scaleToFill" reuseIdentifier="___VARIABLE_sourceViewIdentifier___CollectionViewReusableView" id="O6k-YC-oJr" customClass="___VARIABLE_sourceViewIdentifier___CollectionViewReusableView" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <viewLayoutGuide key="safeArea" id="OH2-Jp-Ghs"/>

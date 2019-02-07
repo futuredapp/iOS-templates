@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>Collection Reusable View</string>
+	<string>CellKit Collection View Reusable View</string>
 	<key>Summary</key>
 	<string>This generates a new collection reusable view.</string>
 	<key>Description</key>
@@ -42,7 +42,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceViewIdentifier___CollectionReusableView</string>
+			<string>___VARIABLE_sourceViewIdentifier___CollectionViewReusableView</string>
 			<key>Description</key>
 			<string>The XIB name</string>
 			<key>Identifier</key>
@@ -56,7 +56,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceViewIdentifier___CollectionReusableView</string>
+			<string>___VARIABLE_sourceViewIdentifier___CollectionViewReusableView</string>
 			<key>Description</key>
 			<string>The view name</string>
 			<key>Identifier</key>

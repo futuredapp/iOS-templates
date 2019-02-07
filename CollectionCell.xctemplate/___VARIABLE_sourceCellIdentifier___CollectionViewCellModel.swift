@@ -8,10 +8,10 @@
 
 import CellKit
 
-struct ___VARIABLE_sourceCellIdentifier___CollectionCellModel {
+struct ___VARIABLE_sourceCellIdentifier___CollectionViewCellModel {
 
 }
 
-extension ___VARIABLE_sourceCellIdentifier___CollectionCellModel: CellModel, ReusableCellConvertible {
-    typealias Cell = ___VARIABLE_sourceCellIdentifier___CollectionCell
+extension ___VARIABLE_sourceCellIdentifier___CollectionViewCellModel: CellModel, ReusableCellConvertible {
+    typealias Cell = ___VARIABLE_sourceCellIdentifier___CollectionViewCell
 }

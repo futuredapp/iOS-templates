@@ -8,6 +8,6 @@
 
 import UIKit
 
-final class ___VARIABLE_sourceViewIdentifier___CollectionReusableView: UICollectionReusableView {
+final class ___VARIABLE_sourceViewIdentifier___CollectionViewReusableView: UICollectionReusableView {
 
 }

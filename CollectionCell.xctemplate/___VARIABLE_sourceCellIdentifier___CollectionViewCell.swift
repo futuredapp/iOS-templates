@@ -12,7 +12,7 @@ final class ___VARIABLE_sourceCellIdentifier___CollectionCell: UICollectionViewC
 
 }
 
-extension ___VARIABLE_sourceCellIdentifier___CollectionCell: CellConfigurable {
-    func configure(with model: ___VARIABLE_sourceCellIdentifier___CollectionCellModel) {
+extension ___VARIABLE_sourceCellIdentifier___CollectionViewCell: CellConfigurable {
+    func configure(with model: ___VARIABLE_sourceCellIdentifier___CollectionViewCellModel) {
     }
 }
