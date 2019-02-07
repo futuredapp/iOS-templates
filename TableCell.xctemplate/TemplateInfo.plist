@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>Table Cell</string>
 	<key>Summary</key>
-	<string>This generates a new table cell view for CellKit.</string>
+	<string>This generates a new table view cell for CellKit.</string>
 	<key>Description</key>
 	<string>This generates a new cell.</string>
 	<key>Kind</key>
