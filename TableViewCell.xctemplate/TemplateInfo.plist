@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>Table Cell</string>
+	<string>CellKit Table View Cell</string>
 	<key>Summary</key>
 	<string>This generates a new table view cell for CellKit.</string>
 	<key>Description</key>
@@ -42,7 +42,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceCellIdentifier___TableCell</string>
+			<string>___VARIABLE_sourceCellIdentifier___TableViewCell</string>
 			<key>Description</key>
 			<string>The XIB name</string>
 			<key>Identifier</key>
@@ -56,7 +56,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceCellIdentifier___TableCell</string>
+			<string>___VARIABLE_sourceCellIdentifier___TableViewCell</string>
 			<key>Description</key>
 			<string>The Cell name</string>
 			<key>Identifier</key>
@@ -70,7 +70,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sourceCellIdentifier___TableCellModel</string>
+			<string>___VARIABLE_sourceCellIdentifier___TableViewCellModel</string>
 			<key>Description</key>
 			<string>The cell model name</string>
 			<key>Identifier</key>
