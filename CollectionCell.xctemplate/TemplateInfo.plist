@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>Collection Cell</string>
 	<key>Summary</key>
-	<string>This generates a new collection view cell view under CellKit.</string>
+	<string>This generates a new collection view cell under CellKit.</string>
 	<key>Description</key>
 	<string>This generates a new cell.</string>
 	<key>Kind</key>

@@ -2,7 +2,7 @@
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___ using Collection View Cellkit Template (v1.0).
+//  Created by ___FULLUSERNAME___ on ___DATE___ using CellKit Collection View Cell Template (v1.0).
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
