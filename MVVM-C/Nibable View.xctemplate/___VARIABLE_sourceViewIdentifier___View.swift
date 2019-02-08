@@ -13,8 +13,6 @@ final class ___VARIABLE_sourceViewIdentifier___View: UIView, Nibable {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        // Arbitrary configuration here.
     }
     
 }

@@ -12,8 +12,6 @@ final class ___VARIABLE_sourceCellIdentifier___TableViewHeaderFooter: UITableVie
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        // Arbitary configuration here
     }
     
 }
