@@ -8,7 +8,7 @@
 
 import CellKit
 
-final class ___VARIABLE_sourceCellIdentifier___CollectionCell: UICollectionViewCell {
+final class ___VARIABLE_sourceCellIdentifier___CollectionViewCell: UICollectionViewCell {
 
 }
 
