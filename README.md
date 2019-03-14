@@ -1,6 +1,6 @@
 # MVVM-C Templates
 
-The main template generates a new scene using MVVM-C architecture used at [The Funtasty](https://thefuntasty.com). For more specific navigation cases there are window, modal, push and tab bar scene templates. Also a basic table view cell template with model and XIB is available.
+The main template generates a new scene using MVVM-C architecture used at [The Funtasty](https://thefuntasty.com). For more specific navigation cases there are window, modal, show, push and tab bar scene templates. Also a basic table view cell template with model and XIB is available.
 
 ## Installation
 
