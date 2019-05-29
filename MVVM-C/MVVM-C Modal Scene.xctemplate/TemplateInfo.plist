@@ -25,30 +25,66 @@
 			<string>text</string>
 		</dict>
 		<dict>
-			<key>Identifier</key>
-			<string>viewControllerType</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>View Controller Type:</string>
-			<key>Description</key>
-			<string>Type of View Controller:</string>
-			<key>Type</key>
-			<string>popup</string>
-			<key>Default</key>
-			<string>Plain View Controller</string>
-			<key>Values</key>
-			<array>
-				<string>Plain View Controller</string>
-				<string>Table View Controller</string>
-				<string>Collection View Controller</string>
-			</array>
-		</dict>
-		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___</string>
 			<key>Identifier</key>
 			<string>sceneIdentifier</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneIdentifier___ViewController</string>
+			<key>Description</key>
+			<string>The view controller name</string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Name</key>
+			<string>View Controller Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneIdentifier___ViewModel</string>
+			<key>Description</key>
+			<string>The view model name</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Name</key>
+			<string>ViewModel Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneIdentifier___Coordinator</string>
+			<key>Description</key>
+			<string>The coordinator name</string>
+			<key>Identifier</key>
+			<string>coordinatorName</string>
+			<key>Name</key>
+			<string>Coordinator Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneIdentifier___Storyboard</string>
+			<key>Description</key>
+			<string>The storyboard name</string>
+			<key>Identifier</key>
+			<string>storyboardName</string>
+			<key>Name</key>
+			<string>Storyboard Name:</string>
+			<key>Required</key>
+			<true/>
 			<key>Type</key>
 			<string>static</string>
 		</dict>
