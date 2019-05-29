@@ -2,7 +2,7 @@
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Created by ___FULLUSERNAME___ on ___DATE___ using ArchitectureKit Modal Collection View Template (v1.0).
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
