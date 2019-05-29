@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>Endpoint</string>
+	<key>Description</key>
+	<string>This generates a new endpoint for use with the APIAdapter from the FTAPIKit.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the endpoint</string>
+			<key>Identifier</key>
+			<string>endpointName</string>
+			<key>Name</key>
+			<string>Endpoint file name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>The name of template request.</string>
+			<key>Identifier</key>
+			<string>templateName</string>
+			<key>Name</key>
+			<string>Template endpoint name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>hasRequest</string>
+			<key>Name</key>
+			<string>Generate Request file</string>
+			<key>Description</key>
+			<string>Check whethe you want to create file containing requests.</string>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>hasResponse</string>
+			<key>Name</key>
+			<string>Generate Response file</string>
+			<key>Description</key>
+			<string>Check whethe you want to create file containing responses.</string>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>99</string>
+	<key>Summary</key>
+	<string>This generates a new service for use with the ServiceHolder (dependency injection) from the FuntastyKit.</string>
+</dict>
+</plist>
