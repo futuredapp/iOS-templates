@@ -14,15 +14,15 @@ private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     static let viewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, ___VARIABLE_sceneIdentifier___CollectionViewController>(id: "___VARIABLE_sceneIdentifier___CollectionViewControllerID")
 }
 
-final class ___VARIABLE_sceneIdentifier___Coordinator: ModalCoordinator {
-    let sourceViewController: UIViewController
+final class ___VARIABLE_sceneIdentifier___Coordinator: TabBarItemCoordinator {
+    weak var tabBarController: UITabBarController?
     weak var destinationNavigationController: UINavigationController?
     weak var viewController: ___VARIABLE_sceneIdentifier___CollectionViewController?
 
     private let serviceHolder: ServiceHolder
 
-    init(sourceViewController: UIViewController, serviceHolder: ServiceHolder) {
-        self.sourceViewController = sourceViewController
+    init(tabBarController: UITabBarController, serviceHolder: ServiceHolder) {
+        self.tabBarController = tabBarController
         self.serviceHolder = serviceHolder
         self.destinationNavigationController = ___VARIABLE_sceneIdentifier___Storyboard.navigationController.instantiate()
         self.viewController = destinationNavigationController?.topViewController as? ___VARIABLE_sceneIdentifier___CollectionViewController

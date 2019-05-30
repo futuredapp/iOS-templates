@@ -2,7 +2,7 @@
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___ using ArchitectureKit Modal Table View Template (v1.0).
+//  Created by ___FULLUSERNAME___ on ___DATE___ using ArchitectureKit Tab Item Table View Scene Template (v1.0).
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
@@ -14,15 +14,15 @@ private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     static let viewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, ___VARIABLE_sceneIdentifier___TableViewController>(id: "___VARIABLE_sceneIdentifier___TableViewControllerID")
 }
 
-final class ___VARIABLE_sceneIdentifier___Coordinator: ModalCoordinator {
-    let sourceViewController: UIViewController
+final class ___VARIABLE_sceneIdentifier___Coordinator: TabBarItemCoordinator {
+    weak var tabBarController: UITabBarController?
     weak var destinationNavigationController: UINavigationController?
     weak var viewController: ___VARIABLE_sceneIdentifier___TableViewController?
 
     private let serviceHolder: ServiceHolder
 
-    init(sourceViewController: UIViewController, serviceHolder: ServiceHolder) {
-        self.sourceViewController = sourceViewController
+    init(tabBarController: UITabBarController, serviceHolder: ServiceHolder) {
+        self.tabBarController = tabBarController
         self.serviceHolder = serviceHolder
         self.destinationNavigationController = ___VARIABLE_sceneIdentifier___Storyboard.navigationController.instantiate()
         self.viewController = destinationNavigationController?.topViewController as? ___VARIABLE_sceneIdentifier___TableViewController
