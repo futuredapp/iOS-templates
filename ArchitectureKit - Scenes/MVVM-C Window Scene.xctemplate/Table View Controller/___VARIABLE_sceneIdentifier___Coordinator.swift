@@ -2,7 +2,7 @@
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___ using ArchitectureKit Modal Table View Template (v1.0).
+//  Created by ___FULLUSERNAME___ on ___DATE___ using ArchitectureKit Window Table View Scene Template (v1.0).
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
@@ -14,22 +14,26 @@ private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     static let viewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, ___VARIABLE_sceneIdentifier___TableViewController>(id: "___VARIABLE_sceneIdentifier___TableViewControllerID")
 }
 
-final class ___VARIABLE_sceneIdentifier___Coordinator: ModalCoordinator {
-    let sourceViewController: UIViewController
-    weak var destinationNavigationController: UINavigationController?
+final class ___VARIABLE_sceneIdentifier___Coordinator: DefaultCoordinator {
+    private let window: UIWindow
+    private weak var destinationNavigationController: UINavigationController?
     weak var viewController: ___VARIABLE_sceneIdentifier___TableViewController?
 
     private let serviceHolder: ServiceHolder
 
-    init(sourceViewController: UIViewController, serviceHolder: ServiceHolder) {
-        self.sourceViewController = sourceViewController
+    init(window: UIWindow, serviceHolder: ServiceHolder) {
+        self.window = window
         self.serviceHolder = serviceHolder
         self.destinationNavigationController = ___VARIABLE_sceneIdentifier___Storyboard.navigationController.instantiate()
         self.viewController = destinationNavigationController?.topViewController as? ___VARIABLE_sceneIdentifier___TableViewController
     }
 
-    func configure(viewController: ___VARIABLE_sceneIdentifier___TableViewController) {
+    func start() {
+        guard let viewController = viewController, let destinationNavigationController = destinationNavigationController else {
+            return
+        }
         viewController.viewModel = ___VARIABLE_sceneIdentifier___ViewModel(coordinator: self, viewController: viewController)
+        window.rootViewController = destinationNavigationController
     }
 }
 
