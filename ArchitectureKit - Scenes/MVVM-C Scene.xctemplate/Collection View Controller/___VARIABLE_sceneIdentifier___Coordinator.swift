@@ -2,7 +2,7 @@
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___ using ArchitectureKit Modal Collection View Template (v1.0).
+//  Created by ___FULLUSERNAME___ on ___DATE___ using ArchitectureKit Collection View Scene Template (v1.0).
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
@@ -14,22 +14,30 @@ private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
     static let viewController = StoryboardReference<___VARIABLE_sceneIdentifier___Storyboard, ___VARIABLE_sceneIdentifier___CollectionViewController>(id: "___VARIABLE_sceneIdentifier___CollectionViewControllerID")
 }
 
-final class ___VARIABLE_sceneIdentifier___Coordinator: ModalCoordinator {
-    let sourceViewController: UIViewController
-    weak var destinationNavigationController: UINavigationController?
+final class ___VARIABLE_sceneIdentifier___Coordinator: DefaultCoordinator {
+    private let navigationController: UINavigationController
     weak var viewController: ___VARIABLE_sceneIdentifier___CollectionViewController?
 
     private let serviceHolder: ServiceHolder
 
-    init(sourceViewController: UIViewController, serviceHolder: ServiceHolder) {
-        self.sourceViewController = sourceViewController
+    init(navigationController: UINavigationController, serviceHolder: ServiceHolder) {
+        self.navigationController = navigationController
+        self.viewController = ___VARIABLE_sceneIdentifier___Storyboard.viewController.instantiate()
+
         self.serviceHolder = serviceHolder
-        self.destinationNavigationController = ___VARIABLE_sceneIdentifier___Storyboard.navigationController.instantiate()
-        self.viewController = destinationNavigationController?.topViewController as? ___VARIABLE_sceneIdentifier___CollectionViewController
     }
 
-    func configure(viewController: ___VARIABLE_sceneIdentifier___CollectionViewController) {
+    func start() {
+        guard let viewController = viewController else {
+            return
+        }
         viewController.viewModel = ___VARIABLE_sceneIdentifier___ViewModel(coordinator: self, viewController: viewController)
+
+        navigationController.pushViewController(viewController, animated: true)
+    }
+
+    func stop() {
+        _ = navigationController.popViewController(animated: true)
     }
 }
 

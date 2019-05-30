@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ___VARIABLE_sceneIdentifier___CollectionViewController: UIViewController {
+final class ___VARIABLE_sceneIdentifier___CollectionViewController: UICollectionViewController {
     var viewModel: ___VARIABLE_sceneIdentifier___ViewModel!
 
     // MARK: - View lifecycle

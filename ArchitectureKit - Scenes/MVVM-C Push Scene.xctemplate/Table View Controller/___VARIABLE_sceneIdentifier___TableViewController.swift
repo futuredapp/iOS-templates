@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ___VARIABLE_sceneIdentifier___TableViewController: UIViewController {
+final class ___VARIABLE_sceneIdentifier___TableViewController: UITableViewController {
     var viewModel: ___VARIABLE_sceneIdentifier___ViewModel!
 
     // MARK: - View lifecycle
