@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>Scene</string>
 	<key>Description</key>
-	<string>This generates a new tab bar item scene using The Funtasty MVVM-C architecture. It consists of the view controller, view model, coordinator and storyboard.</string>
+	<string>This generates a new tab bar using The Funtasty MVVM-C architecture. It consists of the view controller, view model, coordinator and storyboard.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -88,6 +88,20 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Cocoapods</string>
+			<key>Name</key>
+			<string>I am using CocoaPods</string>
+			<key>Description</key>
+			<string>I am using CocoaPods rather than SPM</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
@@ -96,6 +110,6 @@
 	<key>SortOrder</key>
 	<string>9</string>
 	<key>Summary</key>
-	<string>This generates a new tab bar item scene using The Funtasty MVVM-C architecture.</string>
+	<string>This generates a new tab bar using The Funtasty MVVM-C architecture.</string>
 </dict>
 </plist>

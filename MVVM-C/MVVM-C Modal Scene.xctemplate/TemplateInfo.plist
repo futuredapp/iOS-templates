@@ -88,6 +88,20 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Cocoapods</string>
+			<key>Name</key>
+			<string>I am using CocoaPods</string>
+			<key>Description</key>
+			<string>I am using CocoaPods rather than SPM</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
