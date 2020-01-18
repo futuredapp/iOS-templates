@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>Scene</string>
 	<key>Description</key>
-	<string>This generates a new show scene using The Funtasty MVVM-C architecture. It consists of the view controller, view model, coordinator and storyboard.</string>
+	<string>This generates a new show scene using Futured MVVM-C architecture. It consists of the view controller, view model, coordinator and storyboard.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -96,6 +96,6 @@
 	<key>SortOrder</key>
 	<string>9</string>
 	<key>Summary</key>
-	<string>This generates a new show scene using The Funtasty MVVM-C architecture.</string>
+	<string>This generates a new show scene using Futured MVVM-C architecture.</string>
 </dict>
 </plist>
