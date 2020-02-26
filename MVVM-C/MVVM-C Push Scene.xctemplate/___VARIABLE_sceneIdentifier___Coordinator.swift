@@ -14,7 +14,7 @@ private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
 }
 
 final class ___VARIABLE_sceneIdentifier___Coordinator: PushCoordinator {
-    let navigationController: UINavigationController
+    weak var navigationController: UINavigationController?
     weak var viewController: ___VARIABLE_sceneIdentifier___ViewController?
 
     private let serviceHolder: ServiceHolder
