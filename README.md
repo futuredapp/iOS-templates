@@ -11,3 +11,7 @@ Also, they could be installed by running some template management tool like [xcm
 ```
 xcman templates install --name MVVM-C\ Templates futuredapp/MVVM-C-Templates
 ```
+
+## License
+
+`MVVM-C Templates` are available under the MIT license. See the [LICENSE](LICENSE) for more information.
