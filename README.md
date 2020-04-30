@@ -11,3 +11,22 @@ Also, they could be installed by running some template management tool like [xcm
 ```
 xcman templates install --name MVVM-C\ Templates futuredapp/MVVM-C-Templates
 ```
+
+## Contributors
+
+Current maintainer and main contributor is [Matěj Kašpar Jirásek](https://github.com/mkj-is), <matej.jirasek@futured.app>.
+
+We want to thank other contributors, namely:
+
+- [Matěj Kašpar Jirásek](https://github.com/mkj-is)
+- [Mikoláš Stuchlík](https://github.com/mikolasstuchlik)
+- [Adam Leitgeb](https://github.com/adam-leitgeb)
+- [Petr Zvoníček](https://github.com/zvonicek)
+- [Michal Simik](https://github.com/michals92)
+- [Tomáš Babulák](https://github.com/tomasbabulak)
+- [Adam Bezak](https://github.com/michalsrutek)
+- [Adam Salih](https://github.com/max9631)
+
+## License
+
+`MVVM-C Templates` are available under the MIT license. See the [LICENSE](LICENSE) for more information.
