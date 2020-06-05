@@ -1,3 +1,5 @@
+<img alt="MVVM-C Templates logo" align="right" src="Logo.svg">
+
 # MVVM-C Templates
 
 The main template generates a new scene using MVVM-C architecture used in [Futured apps](https://futured.app). For more specific navigation cases there are window, modal, show, push and tab bar scene templates. Also a basic table view cell template with model and XIB is available.
