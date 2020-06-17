@@ -6,6 +6,7 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
+import UIKit
 import FuntastyKit
 
 private struct ___VARIABLE_sceneIdentifier___Storyboard: StoryboardType {
