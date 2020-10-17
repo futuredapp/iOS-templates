@@ -12,7 +12,7 @@ import FuntastyKit
 protocol ___VARIABLE_sceneIdentifier___CoordinatorInput: Coordinator {
 }
 
-protocol ___VARIABLE_sceneIdentifier___ViewControllerInput: class {
+protocol ___VARIABLE_sceneIdentifier___ViewControllerInput: AnyObject {
 }
 
 final class ___VARIABLE_sceneIdentifier___ViewModel {
