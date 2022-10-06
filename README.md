@@ -11,7 +11,7 @@ The main template generates a new scene using MVVM-C architecture used to used i
 Basic templates that make working with the [CellKit](https://github.com/futuredapp/CellKit) easier. A table view cell template with model and XIB is available. 
 
 #### FTAPIKit templates
-Basic templates that make working with the [FTAPIKit](https://github.com/futuredapp/FTAPIKit) easier. A API endpoint template is available.
+Basic templates that make working with the [FTAPIKit](https://github.com/futuredapp/FTAPIKit) easier. An API endpoint template is available.
 
 #### SwiftUI templates
 The template generates a new scene in SwiftUI. A scene consists of a View and a ViewState.
