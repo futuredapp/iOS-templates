@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>KMP Scene</string>
 	<key>Description</key>
-	<string>This generates a new SwiftUI scene using Futured architecture. It consists of the view and view state.</string>
+	<string>This generates a new KMP SwiftUI scene using Futured architecture. It consists of the view, view model protocol and view model.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -26,7 +26,7 @@
 		</dict>
 		<dict>
 			<key>Description</key>
-			<string>The name of KMP module</string>
+			<string>The name of shared KMP module</string>
 			<key>Identifier</key>
 			<string>kmpModuleName</string>
 			<key>Name</key>
@@ -62,20 +62,6 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneIdentifier___ViewModel</string>
-			<key>Description</key>
-			<string>The view model name</string>
-			<key>Identifier</key>
-			<string>viewModelName</string>
-			<key>Name</key>
-			<string>ViewModel Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
 			<string>___VARIABLE_sceneIdentifier___ViewModelProtocol</string>
 			<key>Description</key>
 			<string>The view model protocol name</string>
@@ -83,6 +69,20 @@
 			<string>viewModelProtocolName</string>
 			<key>Name</key>
 			<string>ViewModelProtocol Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneIdentifier___ViewModel</string>
+			<key>Description</key>
+			<string>The view model name</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Name</key>
+			<string>ViewModel Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
