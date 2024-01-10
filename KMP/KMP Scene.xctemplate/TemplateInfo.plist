@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>KMP Scene</string>
+	<key>Description</key>
+	<string>This generates a new SwiftUI scene using Futured architecture. It consists of the view and view state.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>New Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>The name of KMP module</string>
+			<key>Identifier</key>
+			<string>kmpModuleName</string>
+			<key>Name</key>
+			<string>KMP Module Name:</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>sceneIdentifier</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneIdentifier___View</string>
+			<key>Description</key>
+			<string>The view name</string>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Name</key>
+			<string>View Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneIdentifier___ViewModel</string>
+			<key>Description</key>
+			<string>The view model name</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Name</key>
+			<string>ViewModel Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneIdentifier___ViewModelProtocol</string>
+			<key>Description</key>
+			<string>The view model protocol name</string>
+			<key>Identifier</key>
+			<string>viewModelProtocolName</string>
+			<key>Name</key>
+			<string>ViewModelProtocol Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>10</string>
+	<key>Summary</key>
+	<string>This generates a new SwiftUI scene using Futured KMP architecture.</string>
+</dict>
+</plist>
