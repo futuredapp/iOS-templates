@@ -62,20 +62,6 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneIdentifier___ViewModelProtocol</string>
-			<key>Description</key>
-			<string>The view model protocol name</string>
-			<key>Identifier</key>
-			<string>viewModelProtocolName</string>
-			<key>Name</key>
-			<string>ViewModelProtocol Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
 			<string>___VARIABLE_sceneIdentifier___ViewModel</string>
 			<key>Description</key>
 			<string>The view model name</string>
