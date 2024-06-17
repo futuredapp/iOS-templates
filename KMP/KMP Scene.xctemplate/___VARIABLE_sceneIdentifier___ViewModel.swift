@@ -5,7 +5,7 @@ protocol ___VARIABLE_sceneIdentifier___ViewModelProtocol: DynamicProperty {
 }
 
 struct ___VARIABLE_sceneIdentifier___ViewModel {
-    @ObservedObject @KotlinStateFlow private var viewState: ___VARIABLE_sceneIdentifier___ViewState
+    @StateObject @KotlinStateFlow private var viewState: ___VARIABLE_sceneIdentifier___ViewState
     private let actions: ___VARIABLE_sceneIdentifier___ScreenActions
     private let events: SkieSwiftFlow<___VARIABLE_sceneIdentifier___Event>
 
