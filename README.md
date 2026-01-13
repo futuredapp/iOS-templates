@@ -1,46 +1,37 @@
-<img alt="iOS Templates logo" align="right" src="Logo.svg">
+<img align="right" alt="iOS Templates logo" src="Resources/logo.svg" height="65">
 
 # iOS Templates
 
-iOS templates commonly used in [Futured apps](https://futured.app).
-
-#### MVVM-C templates
-The main template generates a new scene using MVVM-C architecture used to used in [Futured apps](https://futured.app). For more specific navigation cases there are window, modal, show, push and tab bar scene templates. 
-
-#### CellKit templates
-Basic templates that make working with the [CellKit](https://github.com/futuredapp/CellKit) easier. A table view cell template with model and XIB is available. 
+Common iOS templates used at [Futured](https://futured.app).
 
 #### FTAPIKit templates
-Basic templates that make working with the [FTAPIKit](https://github.com/futuredapp/FTAPIKit) easier. An API endpoint template is available.
+Simplifies working with [FTAPIKit](https://github.com/futuredapp/FTAPIKit). Includes an API endpoint template.
 
-#### SwiftUI templates
-The template generates a new scene in SwiftUI. A scene consists of a View and a ViewState.
+#### FuturedArchitecture templates
+Generates files following the Futured iOS architecture defined in [FuturedKit](https://github.com/futuredapp/futuredkit).
+
+![FuturedArchitecture Template](Resources/futured_architecture.png)
+
+#### KMP templates
+Generates a new scene (View and ViewModel) for KMP projects.
 
 ## Installation
 
-The templates can be added to Xcode simply by cloning the repo and running `make` in it.
+To add the templates to Xcode, clone the repo and run `make`:
 
-Also, they could be installed by running some template management tool like [xcman](https://github.com/josefdolezal/xcman):
-
+```bash
+git clone --depth=1 https://github.com/futuredapp/iOS-templates.git
+cd iOS-templates
+make
 ```
-xcman templates install --name Futured\ Templates futuredapp/iOS-templates
+
+To install only specific template, run make inside its folder (FTAPIKit, FuturedArchitecture, or KMP):
+
+```bash
+git clone --depth=1 https://github.com/futuredapp/iOS-templates.git
+cd iOS-templates/FuturedArchitecture
+make
 ```
-
-## Contributors
-
-Current maintainer and main contributor is [Patrik Potoček](https://github.com/Patrez), <patrik.potocek@futured.app>.
-
-We want to thank other contributors, namely:
-
-- [Matěj Kašpar Jirásek](https://github.com/mkj-is)
-- [Mikoláš Stuchlík](https://github.com/mikolasstuchlik)
-- [Adam Leitgeb](https://github.com/adam-leitgeb)
-- [Petr Zvoníček](https://github.com/zvonicek)
-- [Michal Simik](https://github.com/michals92)
-- [Tomáš Babulák](https://github.com/tomasbabulak)
-- [Adam Bezak](https://github.com/michalsrutek)
-- [Adam Salih](https://github.com/max9631)
-- [Radek Doležal](https://github.com/eRDe33)
 
 ## License
 
