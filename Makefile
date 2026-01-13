@@ -1,5 +1,5 @@
 
-TEMPLATE_NAMES = 'MVVM-C' 'CellKit' 'FTAPIKit' 'SwiftUI' 'KMP'
+TEMPLATE_NAMES = 'FTAPIKit' 'SwiftUI' 'KMP'
 TEMPLATE_DIR = $(HOME)/Library/Developer/Xcode/Templates/
 
 install:
