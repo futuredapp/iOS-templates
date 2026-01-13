@@ -1,5 +1,5 @@
 
-TEMPLATE_NAMES = 'FTAPIKit' 'SwiftUI' 'KMP'
+TEMPLATE_NAMES = 'FTAPIKit' 'FuturedArchitecture' 'KMP'
 TEMPLATE_DIR = $(HOME)/Library/Developer/Xcode/Templates/
 
 install:
@@ -9,5 +9,7 @@ install:
 		cp -R *.xctemplate $(TEMPLATE_DIR)$$name ; \
 		cd .. ; \
 	done
+	echo "\033[0;32mInstallation was successful!\033[0m"
 
-.PHONY = install
+.PHONY: install
+.SILENT: install
