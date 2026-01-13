@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>This generates a new SwiftUI scene using Futured architecture. It consists of the Component (SwiftUI View) and its ComponentModel (ObservableObject)</string>
+    <key>Kind</key>
+    <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+    <key>Options</key>
+    <array>
+        <dict>
+            <key>Description</key>
+            <string>The name of the scene to create</string>
+            <key>Identifier</key>
+            <string>productName</string>
+            <key>Name</key>
+            <string>New Scene Name:</string>
+            <key>NotPersisted</key>
+            <true/>
+            <key>Required</key>
+            <true/>
+            <key>Type</key>
+            <string>text</string>
+        </dict>
+        <dict>
+            <key>Default</key>
+            <string>___VARIABLE_productName:identifier___</string>
+            <key>Identifier</key>
+            <string>sceneIdentifier</string>
+            <key>Type</key>
+            <string>static</string>
+            <key>NotPersisted</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Identifier</key>
+            <string>sceneType</string>
+            <key>Required</key>
+            <true/>
+            <key>Name</key>
+            <string>Scene Type:</string>
+            <key>Description</key>
+            <string>The type of scene to create</string>
+            <key>NotPersisted</key>
+            <true/>
+            <key>Type</key>
+            <string>popup</string>
+            <key>Default</key>
+            <string>Scene</string>
+            <key>Values</key>
+            <array>
+                <string>Scene</string>
+                <string>Resource Scene</string>
+            </array>
+        </dict>
+        <dict>
+            <key>Default</key>
+            <string>___VARIABLE_sceneIdentifier___Component</string>
+            <key>Description</key>
+            <string>Component name</string>
+            <key>Identifier</key>
+            <string>componentNameName</string>
+            <key>NotPersisted</key>
+            <true/>
+            <key>Name</key>
+            <string>Component Name:</string>
+            <key>Required</key>
+            <true/>
+            <key>Type</key>
+            <string>static</string>
+        </dict>
+        <dict>
+            <key>Default</key>
+            <string>___VARIABLE_sceneIdentifier___ComponentModel</string>
+            <key>Description</key>
+            <string>ComponentModel name</string>
+            <key>Identifier</key>
+            <string>componentModelName</string>
+            <key>Name</key>
+            <string>ComponentModel Name:</string>
+            <key>NotPersisted</key>
+            <true/>
+            <key>Required</key>
+            <true/>
+            <key>Type</key>
+            <string>static</string>
+        </dict>
+        <dict>
+            <key>RequiredOptions</key>
+            <dict>
+                <key>sceneType</key>
+                <string>Resource Scene</string>
+            </dict>
+            <key>Default</key>
+            <string>___VARIABLE_sceneIdentifier___Resource</string>
+            <key>Description</key>
+            <string>Component Resource</string>
+            <key>Identifier</key>
+            <string>resourceName</string>
+            <key>Name</key>
+            <string>Resource name:</string>
+            <key>NotPersisted</key>
+            <true/>
+            <key>Type</key>
+            <string>static</string>
+        </dict>
+    </array>
+    <key>Platforms</key>
+    <array>
+        <string>com.apple.platform.iphoneos</string>
+    </array>
+    <key>Summary</key>
+    <string>This generates a new SwiftUI scene using Futured architecture.</string>
+</dict>
+</plist>
